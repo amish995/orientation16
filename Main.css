@@ -47,7 +47,7 @@ p {
 
 .container-blue {
 	text-align: center;
-	background-color: #01dfec;
+	background-color: #527cb5;
  	padding-top: 6%;
  	padding-bottom: 10%;
  	color: white;
@@ -58,7 +58,7 @@ p {
 }
 .container-yellow {
 	text-align: center;
-	background-color: #ecc800;
+	background-color: #ffe958;
  	padding-top: 6%;
  	padding-bottom: 10%;
  	color: white;
@@ -69,7 +69,7 @@ p {
 }
 .container-green {
 	text-align: center;
-	background-color: #0ad200;
+	background-color: #7dc281;
  	padding-top: 6%;
  	padding-bottom: 10%;
  	color: white;
@@ -80,7 +80,7 @@ p {
 }
 .container-red {
 	text-align: center;
-	background-color: #ff4e44;
+	background-color: #d05559;
  	padding-top: 6%;
  	padding-bottom: 10%;
  	color: white;
