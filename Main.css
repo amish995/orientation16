@@ -67,6 +67,14 @@ p {
     background-repeat: no-repeat;
     background-size: contain;
 	background-position: right;
+
+	animation: animatedBackground 5s ease infinite;
+}
+
+@keyframes animatedBackground {
+	0% { background-position: 100% 0; }
+	50% { background-position: 101% 0; }
+	100% { background-position: 100% 0; }
 }
 .container-yellow {
 	text-align: center;
@@ -221,3 +229,81 @@ object, iframe {
 	position: relative; 
 	background: transparent
 }
+
+.pulse {
+	-webkit-animation: pulse 4s ease infinite;
+	-moz-animation: pulse 4s ease infinite;
+	-ms-animation: pulse 4s ease infinite;
+	animation: pulse 4s ease infinite;
+}
+
+@keyframes "pulse" {
+ 0% {
+    -webkit-transform: scale(1);
+   	-moz-transform: scale(1);
+   	-o-transform: scale(1);
+   	-ms-transform: scale(1);
+   	transform: scale(1);
+ }
+ 50% {
+    -webkit-transform: scale(0.98);
+   	-moz-transform: scale(0.98);
+   	-o-transform: scale(0.98);
+   	-ms-transform: scale(0.98);
+   	transform: scale(0.98);
+ }
+ 100% {
+    -webkit-transform: scale(1);
+   	-moz-transform: scale(1);
+   	-o-transform: scale(1);
+   	-ms-transform: scale(1);
+   	transform: scale(1);
+ }
+
+}
+
+@-moz-keyframes pulse {
+ 0% {
+   -moz-transform: scale(1);
+   transform: scale(1);
+ }
+ 50% {
+   -moz-transform: scale(0.98);
+   transform: scale(0.98);
+ }
+ 100% {
+   -moz-transform: scale(1);
+   transform: scale(1);
+ }
+
+}
+
+@-webkit-keyframes "pulse" {
+ 0% {
+   -webkit-transform: scale(1);
+   transform: scale(1);
+ }
+ 50% {
+   -webkit-transform: scale(0.98);
+   transform: scale(0.98);
+ }
+ 100% {
+   -webkit-transform: scale(1);
+   transform: scale(1);
+ }
+
+}
+
+@-ms-keyframes "pulse" {
+ 0% {
+   -ms-transform: scale(1);
+   transform: scale(1);
+ }
+ 50% {
+   -ms-transform: scale(0.98);
+   transform: scale(0.98);
+ }
+ 100% {
+   -ms-transform: scale(1);
+   transform: scale(1);
+ }
