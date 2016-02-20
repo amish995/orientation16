@@ -32,7 +32,7 @@ p {
 	text-align: center;
 	background-color: #fff;
 	background-image: url("img/grid.png");
- 	padding-top: 10%;
+ 	padding-top: 6%;
  	padding-bottom: 6%;
 	color: black;
 }
@@ -132,6 +132,9 @@ p {
 
 .navbar{
 	font-family: 'Pathway Gothic One', sans-serif;
+	max-width: 1000px; /* YOUR BG MAX SIZE */
+	margin: 0 auto;
+	z-index: 100;
 }
 
 .hor_navbar{
@@ -143,6 +146,7 @@ p {
     position: fixed;
     top: 0;
     width: 100%;
+    height: 40px;
 }
 
 .nav_list{
@@ -159,4 +163,15 @@ p {
 
 .nav_list a:hover {
     background-color: #111;
+}
+
+.section {
+    position: relative;
+}
+.section:target {
+    padding-top: 40px;
+}
+
+iframe {
+	z-index: 50;
 }
