@@ -215,4 +215,8 @@ p {
     padding-top: 40px;
 }
 
-object, iframe {z-index: 1; position: relative; background: transparent}
+object, iframe {
+	z-index: 1; 
+	position: relative; 
+	background: transparent
+}
