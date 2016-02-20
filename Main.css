@@ -134,7 +134,7 @@ p {
 	font-family: 'Pathway Gothic One', sans-serif;
 	max-width: 1000px; /* YOUR BG MAX SIZE */
 	margin: 0 auto;
-	z-index: 100;
+	z-index: 999;
 }
 
 .hor_navbar{
@@ -172,6 +172,4 @@ p {
     padding-top: 40px;
 }
 
-iframe {
-	z-index: 50;
-}
+object, iframe {z-index: 1; position: relative; background: transparent}
