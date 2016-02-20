@@ -132,9 +132,11 @@ p {
 
 .navbar{
 	font-family: 'Pathway Gothic One', sans-serif;
-	max-width: 1000px; /* YOUR BG MAX SIZE */
+	position: relative;
+	max-width: 1000px;
 	margin: 0 auto;
 	z-index: 999;
+	
 }
 
 .hor_navbar{
