@@ -145,31 +145,25 @@ p {
 }
 
 #clockdiv{
-    color: #fff;
     display: inline-block;
-    font-weight: 100;
     text-align: center;
-    font-size: 80px;
+    font-size: 10vw;
+    letter-spacing: -.6vw;
 }
 
 #clockdiv > div{
     padding: 10px;
     border-radius: 3px;
-    background: #777;
+    color: #f00;
     display: inline-block;
+    font-family: 'digital7mi';
 }
 
-#clockdiv div > span{
-    padding: 15px;
-    border-radius: 3px;
-    background: #333;
-    display: inline-block;
+@font-face {
+    font-family: digital7mi;
+    src: url(font/digital7mi.ttf);
 }
 
-.smalltext{
-    padding-top: 5px;
-    font-size: 16px;
-}
 
 .navbar{
 	font-size: 2.5vmin;
