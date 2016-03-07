@@ -18,11 +18,11 @@ p {
 	max-width: 70%;
 	margin: 0 auto;
 	font-family: 'Josefin Slab', serif;
-	font-size: 1vw;
+	font-size: 1.15vw;
 }
 
 .Welcome{
-	font-size:1.2vw;
+	font-size:1.35vw;
 	/*font-family: sans-serif;*/
 	font-weight: bold;
 }
