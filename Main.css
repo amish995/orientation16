@@ -33,14 +33,14 @@ p {
  	max-width: 1000px; /* YOUR BG MAX SIZE */
  	background-size: 100%;
  	margin: 0 auto;
- 	
+
 }
 .container-overlay {
     content: "";
     /*background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE4AAABOCAMAAAC5dNAvAAAAM1BMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACjBUbJAAAAEXRSTlMAAQkLDBATGCUoKissLTAyMwUBDxUAAABTSURBVHgB7dHJDYBQDANRQ1gIC7j/amnCly/NFPAUxco0rbePWYKDg4ODg4ODg4ODG52Dg4ODg4ODg4ODq0jL/ri3KnWm6/N7dsvRwteFfxde9gd3nxkxIbNPPwAAAABJRU5ErkJggg==) repeat;*/
     position: fixed;
     margin: 0 auto;
-    z-index: 1;   
+    z-index: 1;
     pointer-events:none;
     width: 1000px;
     height: 100%;
@@ -148,7 +148,7 @@ p {
 	background-image: url("img/percival emblem combined.png");
 }
 .emblem {
-	top:-100px;	
+	top:-100px;
 }
 
 #clockdiv{
@@ -179,7 +179,7 @@ p {
 	max-width: 1000px;
 	margin: 0 auto;
 	z-index: 999;
-	
+
 }
 
 .hor_navbar{
@@ -218,7 +218,7 @@ p {
 }
 
 object, iframe {
-	z-index: 1; 
-	position: relative; 
+	z-index: 1;
+	position: relative;
 	background: transparent
 }
